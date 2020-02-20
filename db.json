@@ -1,14 +1,343 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "templates": {
+    "number": 0,
+    "size": 2,
+    "first": true,
+    "last": false,
+    "numberOfElements": 2,
+    "totalPages": 3,
+    "totalElements": 5,
+    "content": [
+      {
+        "id": "t1",
+        "title": "Branding_03",
+        "creator": "c1",
+        "type": "image",
+        "active": "active",
+        "adAccountId": "a1",
+        "props": {
+          "industry": [
+            "Car",
+            "Beauty"
+          ],
+          "targetService": [
+            "LADM"
+          ]
+        },
+        "ratioArray": [
+          "1:1",
+          "19:6"
+        ],
+        "canvasArray": [
+          {
+            "id": "c1",
+            "type": "image",
+            "ratio": "1:1",
+            "thumbUrl": "https://cdn.wallpapersafari.com/92/11/2WcbIs.jpg",
+            "status": "draft",
+            "activeServices": [
+              "LADM"
+            ],
+            "meta": {
+              "width": 1080,
+              "height": 1080,
+              "layers": [
+                {
+                  "type": "image",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "src": ""
+                },
+                {
+                  "type": "logo",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "src": ""
+                },
+                {
+                  "type": "text",
+                  "width": 0,
+                  "height": 0,
+                  "top": 0,
+                  "left": 0,
+                  "font": "font",
+                  "size": 2.3,
+                  "thickness": 100,
+                  "strokeColor": "#123123",
+                  "strokeThickness": 1.2,
+                  "underline": false,
+                  "italic": false,
+                  "horizontal": "left",
+                  "vertical": "center",
+                  "src": ""
+                },
+                {
+                  "type": "shape",
+                  "shape": "star",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "color": "#123123"
+                },
+                {
+                  "type": "video",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "size": 3.3,
+                  "time": 2.2,
+                  "src": ""
+                }
+              ]
+            },
+            "created": "2007-11-06T16:34:41.000Z",
+            "updated": "2007-11-07T16:34:41.000Z"
+          },
+          {
+            "id": "c2",
+            "type": "image",
+            "ratio": "16:9",
+            "thumbUrl": "https://www.4flix.co.kr/view_image?bo_table=gallery&fn=3718643390_s3l50g62_199593e5bb5d4206027bf9e56f646c165d8843c9.jpg",
+            "status": "draft",
+            "activeServices": [
+              "LADM"
+            ],
+            "meta": {
+              "width": 1080,
+              "height": 1080,
+              "layers": [
+                {
+                  "type": "image",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "src": ""
+                },
+                {
+                  "type": "logo",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "src": ""
+                },
+                {
+                  "type": "text",
+                  "width": 0,
+                  "height": 0,
+                  "top": 0,
+                  "left": 0,
+                  "font": "font",
+                  "size": 2.3,
+                  "thickness": 100,
+                  "strokeColor": "#123123",
+                  "strokeThickness": 1.2,
+                  "underline": false,
+                  "italic": false,
+                  "horizontal": "left",
+                  "vertical": "center",
+                  "src": ""
+                },
+                {
+                  "type": "shape",
+                  "shape": "star",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "color": "#123123"
+                },
+                {
+                  "type": "video",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "size": 3.3,
+                  "time": 2.2,
+                  "src": ""
+                }
+              ]
+            },
+            "created": "2007-11-06T16:34:41.000Z",
+            "updated": "2007-11-07T16:34:41.000Z"
+          }
+        ],
+        "created": "2007-11-08T16:34:41.000Z",
+        "updated": "2007-11-09T16:34:41.000Z"
+      },
+      {
+        "id": "t2",
+        "title": "Creator_03",
+        "creator": "c2",
+        "type": "image",
+        "active": "active",
+        "adAccountId": "a2",
+        "props": {
+          "industry": [
+            "Beauty",
+            "IT"
+          ],
+          "targetService": [
+            "LADM"
+          ]
+        },
+        "ratioArray": [
+          "19:6",
+          "1:1"
+        ],
+        "canvasArray": [
+          {
+            "id": "c2",
+            "type": "image",
+            "ratio": "16:9",
+            "thumbUrl": "https://www.4flix.co.kr/view_image?bo_table=gallery&fn=3718643390_s3l50g62_199593e5bb5d4206027bf9e56f646c165d8843c9.jpg",
+            "status": "draft",
+            "activeServices": [
+              "LADM"
+            ],
+            "meta": {
+              "width": 1080,
+              "height": 1080,
+              "layers": [
+                {
+                  "type": "image",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "src": ""
+                },
+                {
+                  "type": "logo",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "src": ""
+                },
+                {
+                  "type": "text",
+                  "width": 0,
+                  "height": 0,
+                  "top": 0,
+                  "left": 0,
+                  "font": "font",
+                  "size": 2.3,
+                  "thickness": 100,
+                  "strokeColor": "#123123",
+                  "strokeThickness": 1.2,
+                  "underline": false,
+                  "italic": false,
+                  "horizontal": "left",
+                  "vertical": "center",
+                  "src": ""
+                },
+                {
+                  "type": "shape",
+                  "shape": "star",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "color": "#123123"
+                },
+                {
+                  "type": "video",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "size": 3.3,
+                  "time": 2.2,
+                  "src": ""
+                }
+              ]
+            },
+            "created": "2007-11-06T16:34:41.000Z",
+            "updated": "2007-11-07T16:34:41.000Z"
+          },
+          {
+            "id": "c1",
+            "type": "image",
+            "ratio": "1:1",
+            "thumbUrl": "https://cdn.wallpapersafari.com/92/11/2WcbIs.jpg",
+            "status": "draft",
+            "activeServices": [
+              "LADM"
+            ],
+            "meta": {
+              "width": 1080,
+              "height": 1080,
+              "layers": [
+                {
+                  "type": "image",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "src": ""
+                },
+                {
+                  "type": "logo",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "src": ""
+                },
+                {
+                  "type": "text",
+                  "width": 0,
+                  "height": 0,
+                  "top": 0,
+                  "left": 0,
+                  "font": "font",
+                  "size": 2.3,
+                  "thickness": 100,
+                  "strokeColor": "#123123",
+                  "strokeThickness": 1.2,
+                  "underline": false,
+                  "italic": false,
+                  "horizontal": "left",
+                  "vertical": "center",
+                  "src": ""
+                },
+                {
+                  "type": "shape",
+                  "shape": "star",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "color": "#123123"
+                },
+                {
+                  "type": "video",
+                  "width": 1080,
+                  "height": 1080,
+                  "top": 0,
+                  "left": 0,
+                  "size": 3.3,
+                  "time": 2.2,
+                  "src": ""
+                }
+              ]
+            },
+            "created": "2007-11-06T16:34:41.000Z",
+            "updated": "2007-11-07T16:34:41.000Z"
+          }
+        ],
+        "created": "2007-11-08T16:34:41.000Z",
+        "updated": "2007-11-09T16:34:41.000Z"
+      }
+    ]
   }
 }
